@@ -1,0 +1,70 @@
+{% extends 'base.html' %} {% block title %} About | R Sasi Kumar's Portfolio {% endblock %}
+{%block content %}
+
+<section class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Profile Image -->
+      <div class="col-lg-5 text-center mb-4 mb-lg-0">
+        {% load static %}
+        <img
+          src="{% static 'images/profile.jpg' %}"
+          alt="Profile"
+          class="img-fluid profile-image"
+        />
+      </div>
+
+      <!-- About Content -->
+      <div class="col-lg-7">
+        <h5 class="section-tag">ABOUT ME</h5>
+
+        <h2 class="section-title">CSE Student & Web Developer</h2>
+
+        <p class="about-text">
+          I am a passionate Computer Science Engineering student with a strong interest in Web Development, Python, 
+          and Software Development. I am dedicated to building scalable applications and solving real-world problems through technology.
+        </p>
+
+        <p class="about-text">
+          My technical expertise includes Python, Django, HTML, CSS, JavaScript, SQL, and Git. 
+          I am continuously learning new technologies, improving my development skills, and working on practical projects 
+          to strengthen my problem-solving abilities.
+        </p>
+
+        <div class="row mt-4">
+          <div class="col-md-6 mb-3">
+            <div class="info-card">
+              <h6>Name</h6>
+              <p>R Sasi Kumar</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <div class="info-card">
+              <h6>Email</h6>
+              <p>sasikumarmaas223@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <div class="info-card">
+              <h6>Education</h6>
+              <p>B.Tech - Computer Science Engineering</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <div class="info-card">
+              <h6>Experience</h6>
+              <p>Student / Fresher</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://www.linkedin.com/in/r-sasikumar14/" class="btn btn-primary btn-lg mt-3" target="_blank"> Connect on LinkedIn </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}Projects | R Sasi Kumar's Portfolio{% endblock %}
+
+{% block content %}
+
+<section class="projects-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h5 class="section-tag">MY PROJECTS</h5>
+      <h2 class="section-title">Featured Works</h2>
+      <p class="projects-intro">
+        Here are some of my recent projects showcasing my skills in Web Development and Django.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Job Portal Project -->
+      <div class="col-md-6 col-lg-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/600x350?text=Job+Portal+Website"
+               alt="Job Portal Website"
+               class="project-image">
+
+          <div class="project-content">
+            <h4>Job Portal Website</h4>
+
+            <p>
+              Developed a comprehensive job portal platform connecting job seekers and recruiters. 
+              Implemented job posting, application tracking, and user authentication features. 
+              Designed a responsive interface to streamline the recruitment process.
+            </p>
+
+            <div class="project-features">
+              <small><strong>Technologies:</strong> Django, HTML, CSS, JavaScript, SQL</small><br>
+              <small><strong>Features:</strong> User Authentication, Job Posting, Application Tracking, Responsive Design</small>
+            </div>
+
+            <div class="project-buttons mt-3">
+              <a href="https://github.com/sasikumarmaas223-bit"
+                 target="_blank"
+                 class="btn btn-primary btn-sm">
+                 <i class="bi bi-github"></i> GitHub
+              </a>
+
+              <a href="#"
+                 target="_blank"
+                 class="btn btn-outline-light btn-sm">
+                 <i class="bi bi-laptop"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Website Project -->
+      <div class="col-md-6 col-lg-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/600x350?text=Portfolio+Website"
+               alt="Portfolio Website"
+               class="project-image">
+
+          <div class="project-content">
+            <h4>Portfolio Website</h4>
+
+            <p>
+              Personal portfolio website developed using Django with responsive design and modern user interface. 
+              Features smooth navigation, typing animation effect, and comprehensive contact information. 
+              Built with Bootstrap 5 for excellent mobile responsiveness.
+            </p>
+
+            <div class="project-features">
+              <small><strong>Technologies:</strong> Django, HTML, CSS, JavaScript, Bootstrap 5</small><br>
+              <small><strong>Features:</strong> Responsive Design, Typing Animation, Contact Integration</small>
+            </div>
+
+            <div class="project-buttons mt-3">
+              <a href="https://github.com/sasikumarmaas223-bit"
+                 target="_blank"
+                 class="btn btn-primary btn-sm">
+                 <i class="bi bi-github"></i> GitHub
+              </a>
+
+              <a href="#"
+                 target="_blank"
+                 class="btn btn-outline-light btn-sm">
+                 <i class="bi bi-laptop"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
